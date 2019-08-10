@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document */
+/*------ CSS Document ------ */
+
+/*------ Base Layout Styles ------*/
 
 * {
 	box-sizing: border-box;
@@ -14,8 +16,9 @@ body {
 
 .HeaderAndContent-wrap {
 	min-height: calc(100vh - 103px);
-	
 }
+
+/*------ Main Header ------*/
 
 .MainHeader-wrap {
 	
@@ -32,6 +35,8 @@ body {
 	text-align: center
 }
 
+/*------ Section ------*/
+
 .Sections-wrap {
 	margin: 2px 0;
 }
@@ -44,9 +49,15 @@ body {
 	margin: 0 auto;;
 }
 
+.SectionOne h2 {
+	margin-left: 20px;
+}
+
 .SectionOneItems-wrap {
 	margin: 0;
 }
+
+/*------ Main Footer ------*/
 
 .MainFooter-wrap {
 	position: relative;
@@ -65,7 +76,7 @@ body {
 	text-align: center;
 }
 
-/*--------Test Border Elements--------*/
+/*------ Test Border Elements ------*/
 
 .TestBorder-div-HandCwrap {
 	border: navy 1px dashed;
@@ -97,12 +108,13 @@ body {
 	margin: 3px;
 }
 
-/*--------Media Queries--------*/
+/*------ Media Queries ------*/
 
 @media(min-width: 796px) {
 	
 	.SectionOne-wrap {
 		width: 90%;
+		max-width: 1550px;
 	}
 	
 }
