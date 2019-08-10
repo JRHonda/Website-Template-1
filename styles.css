@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana;
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+}
+
+.HeaderAndContent-wrap {
+	min-height: calc(100vh - 103px);
+	
+}
+
+.MainHeader-wrap {
+	
+}
+
+.MainHeader {
+
+}
+
+.MainHeader-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center
+}
+
+.Sections-wrap {
+	margin: 2px 0;
+}
+
+.SectionOne-wrap {
+	margin: 0 auto;
+}
+
+.SectionOne {
+	margin: 0 auto;;
+}
+
+.SectionOneItems-wrap {
+	margin: 0;
+}
+
+.MainFooter-wrap {
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.MainFooter {
+	
+}
+
+.MainFooterItems-wrap {
+	text-align: center;
+}
+
+/*--------Test Border Elements--------*/
+
+.TestBorder-div-HandCwrap {
+	border: navy 1px dashed;
+	margin: 3px;
+}
+
+.TestBorder-ul li {
+	border: red 1px dotted;
+	margin: 3px;
+}
+
+.TestBorder-ul {
+	border: green 1px solid;
+	margin: 3px;
+}
+
+.TestBorder-div {
+	border: blue 1px solid;
+/*	margin: 3px;*/
+}
+
+.TestBorder-section {
+	border: red 1px solid;
+	margin: 3px;
+}
+
+.TestBorder-footer {
+	border: red 1px solid;
+	margin: 3px;
+}
+
+/*--------Media Queries--------*/
+
+@media(min-width: 796px) {
+	
+	.SectionOne-wrap {
+		width: 90%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
